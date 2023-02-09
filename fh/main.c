@@ -12,15 +12,13 @@ double calc(double T, double a[]);
 
 int main(){
     double ETHYLENE, HYDROGEN, ETHANE = 0;
-    for(double t = 1000; t <= 1000; t+=100){
-        ETHYLENE += calc(t, a_ETHYLENE);
-        ETHANE += calc(t, a_ETHANE);
-
-        //printf("T = %-6.2lf\n", t);
+    for(double t = 500; t <= 1000; t+=10){
+        ETHYLENE = calc(t, a_ETHYLENE);//реагент
+        ETHANE = calc(t, a_ETHANE);//продукт
+        // printf("ETHYLENE %-10.6lf\n",ETHYLENE);
+        // printf("ETHANE %-10.6lf\n",ETHANE);
+        printf("%.0lf %-10.6lf\n", t, ETHANE-ETHYLENE);
     }
-    printf("ETHYLENE %-10.6lf\n",ETHYLENE);
-    printf("ETHANE %-10.6lf\n",ETHANE);
-    printf("rH%-10.6lf\n", ETHANE-(ETHYLENE+HYDROGEN));
     return 0;
 }
 
