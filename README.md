@@ -9,4 +9,5 @@
 Журнал: https://docs.google.com/spreadsheets/d/14s1G-4wBMGh6Sflcqd2H23wFpmSnySXUKOvm0MNBOvA/edit#gid=530521475    
 **ВебПрог**     
 Журнал: https://docs.google.com/spreadsheets/d/1gqSE-liIlg2gMMTybO3hyvH_kY2l87uMCeQUqPLmm_I/edit?usp=sharing    
-**ОС**?    
+**ОС**  
+Диск с лабами: https://drive.google.com/drive/folders/1JO80Y-JzD63etWo95jb_fDKIOtlc_Vt8  
