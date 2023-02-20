@@ -31,7 +31,7 @@ img {
 }
 
 .block4 {
-    background: #9B59B6;
+    background: #bc5be3;
     position: absolute;
     width: 100px;
     height: 100px; 
@@ -39,35 +39,40 @@ img {
 }
 
 .form {
+    display: block;
     position: absolute;
-    background: #fff;
+    background: #bd51f7;
     top: 150px;
     border-radius: 5px;
-}
-.text-field {
-  margin-bottom: 1rem;
+    padding: 30px;
 }
 
-.text-field__label {
+.text__label {
   display: block;
   margin-bottom: 5px;
 }
 
-.text-field__input {
+.text__input {
   display: block;
-  width: 100%;
-  height: calc(2.25rem + 2px);
-  padding: 0.375rem 0.75rem;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #bdbdbd;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 5px;
+  margin: 5px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.b{
+    font-family:'Times New Roman', Times, serif;
+    color: #182834;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px; 
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #45d682;
 }
 
 </style>
@@ -87,17 +92,19 @@ img {
     Блок 4
 </span>
 
-<form class="form">
-    <label 
-        class="text-field__label" 
-        for="login">
-        Логин
-    </label>
+<form 
+    class="form">
     <input 
-        class="text-field__input" 
+        class="text__input" 
         type="text" 
         name="login" 
         placeholder="Login">
+    <input 
+        class="text__input" 
+        type="password" 
+        name="password" 
+        placeholder="Password">
+    <button class="b">Log in</button>
 </form>
 
 </body>
