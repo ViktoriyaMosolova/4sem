@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+.block1 {
+    background: #2ECC71;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    left: 0px;
+}
+
+.block2 {
+    background: #3498DB;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    left: 100px;
+}
+
+.block3 {
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    left: 200px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.block4 {
+    background: #9B59B6;
+    position: absolute;
+    width: 100px;
+    height: 100px; 
+    left: 300px;
+}
+
+.form {
+    position: absolute;
+    background: #fff;
+    top: 150px;
+    border-radius: 5px;
+}
+.text-field {
+  margin-bottom: 1rem;
+}
+
+.text-field__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text-field__input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+</style>
+</head>
+<body>
+
+<span class="block1">
+    Блок 1
+</span>
+<span class="block2">
+    Блок 2
+</span>
+<span class="block3"> 
+    <img src="0fdbe753c6546a557d1fc6c70b038702.png"> 
+</span>
+<span class="block4">
+    Блок 4
+</span>
+
+<form class="form">
+    <label 
+        class="text-field__label" 
+        for="login">
+        Логин
+    </label>
+    <input 
+        class="text-field__input" 
+        type="text" 
+        name="login" 
+        placeholder="Login">
+</form>
+
+</body>
+</html>
