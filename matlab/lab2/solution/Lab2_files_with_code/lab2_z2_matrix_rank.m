@@ -17,7 +17,7 @@ for x=0:2 %сдвиги вниз
                 L(i-x,j-y)=A(i,j);
             end
         end
-        if det(L)~=0
+        if det(L)~= 0
             disp(L); %вывод невырожденной подматрицы
         end
     end
