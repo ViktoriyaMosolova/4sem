@@ -1,0 +1,11 @@
+.btn {
+    background: #3498db;
+}
+
+.btn::before {
+    content: 'Я ::before';
+}
+
+.btn::after {
+    content: 'Я ::after';
+}

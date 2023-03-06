@@ -1,0 +1,24 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.button {
+    border-radius: 5px;
+    border: transparent;
+    background: #892090;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    transition: 1s;
+}
+
+
+.button:hover {
+    background:#379ac4;
+    transform: rotate(360deg);
+}
+

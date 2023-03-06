@@ -1,0 +1,16 @@
+.slide {
+    background: #aaa;
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* Пример */
+.slider > .title {
+    font-size: 30px;
+    color: green;
+}

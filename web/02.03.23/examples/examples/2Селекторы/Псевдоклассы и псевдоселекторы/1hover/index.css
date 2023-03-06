@@ -1,0 +1,10 @@
+.btn {
+    background: #3498db;
+    transition: 1s;
+}
+
+
+/* Пример + transition */
+.btn:hover {
+    background: #b92989;
+}

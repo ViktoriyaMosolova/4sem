@@ -1,0 +1,19 @@
+.btn {
+    background: #3498db;
+}
+
+
+
+/*.btn:first-child {*/
+/*    background: green;*/
+/*}*/
+
+
+/*.btn:last-child {*/
+/*    background: yellow;*/
+/*}*/
+
+
+.btn:nth-child(1) {
+    background: blue;
+}

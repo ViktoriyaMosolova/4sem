@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+}
+
+/* решение 1 */
+
+html {
+    overflow: hidden;
+}
+
+/* решение 2 */
+
+* {
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
