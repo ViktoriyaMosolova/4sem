@@ -1,0 +1,244 @@
+.block-profile {
+    min-height: 350px;
+    justify-content: center;
+    height: auto;
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin: 20px;
+}
+
+.blocks {
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.profile {
+    width: 260px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-content {
+    width: 220px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.ava {
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.button-change {
+    position: absolute;
+    border-radius: 10px;
+    width: 60px;
+    height: 20px;
+    background: rgba(250, 245, 253, 0.9);
+    margin: 10px 20px;
+}
+
+.button-change>button {
+    width: 70px;
+    height: 20px;
+    display: table-cell;
+    font-size: 10px;
+    font-family: 'Open Sans';
+    color: #535353;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.ava-img {
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.inputstyle {
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.username {
+    width: 220px;
+    height: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #535353;
+    align-items: center;
+}
+
+.button-change-input {
+    height: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.button-change-input>button {
+    position: absolute;
+    display: table-cell;
+    font-size: 10px;
+    font-family: 'Open Sans';
+    color: #535353;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+.button-change-input>div>input:hover,
+.button-change-input>div>input:focus,
+.block-form-change-password>div>div>input:hover,
+.block-form-change-password>div>div>input:focus {
+    border: #e6e9f3;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.count-post {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 360px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.count-post>label {
+    text-align: center;
+    width: 200px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.countposttitle {
+    color: #535353;
+}
+
+.countpostnumer {
+    font-size: 14px;
+    color: #290F4A
+}
+
+.form-change-password {
+    width: 400px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label-form-change-password {
+    text-align: center;
+    width: 360px;
+    height: 20px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #535353;
+}
+
+.block-form-change-password {
+    width: 360px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-form-change-password>div>div {
+    height: 20px;
+}
+
+.form-password-input {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.button-change-password>button {
+    height: 35px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: #290F4A;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.block-form-change-password>div>div>label {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #535353;
+}
+
+.block-form-change-password>div>div>input {
+    height: 20px;
+    width: 300px;
+    font-size: 8px;
+    font-family: 'Open Sans';
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FAF5FD;
+}
+
+.button-change-password {
+    height: 35px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
