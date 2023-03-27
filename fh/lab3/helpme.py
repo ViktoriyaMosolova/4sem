@@ -105,8 +105,8 @@ plt.figure(1)
 plt.title("P-x")
 plt.xlabel("X(Acetone)")
 plt.ylabel("Pressure(bar)")
-plt.plot(X, P_plt)
-plt.plot(Y, P_plt)
+plt.plot(X, P_plt) #реальный
+plt.plot(Y, P_plt) #идеальный
 plt.grid
 plt.show()
 
@@ -115,6 +115,6 @@ plt.grid
 plt.title("y-x")
 plt.xlabel("x1, мол. д.")
 plt.ylabel("y1, мол. д.")
-plt.plot(X, Y)
-plt.plot(X, X)
+plt.plot(X, Y) #идеальный
+plt.plot(X, X) #реальный
 plt.show()
