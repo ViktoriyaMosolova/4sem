@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.form {
+    width: min-content;
+    height: min-content; 
+    background: #bd51f7;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.text__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text__input {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.b{
+    font-family:'Times New Roman', Times, serif;
+    color: #182834;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px; 
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #45d682;
+}
+.c{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 150px;
+    height: 40px; 
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #45d682;
+}
+button:hover, 
+.c:hover{
+    border-color: blueviolet;
+}
+
+</style>
+</head>
+<body>
+    <form class="form">
+        <input 
+            class="text__input" 
+            type="text" 
+            name="name" 
+            placeholder="ФИО">
+        <input 
+            class="text__input" 
+            type="number" 
+            name="age" 
+            placeholder="Возраст">
+        <input 
+            class="text__input" 
+            type="tel" 
+            name="tel" 
+            placeholder="Телефон">
+        <button type="submit" class="b">Отправить</button>
+    </form>
+    <input type="button" class="c" value="Получить все данные"></input>
+    <script src="code.js"></script>
+</body>
+</html>
