@@ -10,5 +10,5 @@
 **ВебПрог**     
 Журнал: https://docs.google.com/spreadsheets/d/1gqSE-liIlg2gMMTybO3hyvH_kY2l87uMCeQUqPLmm_I/edit?usp=sharing    
 **ОС**
-Журнал: https://docs.google.com/spreadsheets/u/0/d/10W3i34Mxg4_8HqZEQ5RVFi7wyPB2cEu-agm14GpCKaw/htmlview
+Журнал: https://docs.google.com/spreadsheets/u/0/d/10W3i34Mxg4_8HqZEQ5RVFi7wyPB2cEu-agm14GpCKaw/htmlview   
 Диск с лабами: https://drive.google.com/drive/folders/1JO80Y-JzD63etWo95jb_fDKIOtlc_Vt8  
