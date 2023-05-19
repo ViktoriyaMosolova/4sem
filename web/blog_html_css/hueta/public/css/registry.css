@@ -1,0 +1,11 @@
+.label-login{
+    display: flex;
+    justify-content: center;
+    color:#290F4A;
+}
+.label-login>a{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}

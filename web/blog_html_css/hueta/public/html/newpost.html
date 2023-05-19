@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Создать пост</title>
+    <link type="text/css" href="../css/headerfooter.css" rel="stylesheet">
+    <link type="text/css" href="../css/stylepost.css" rel="stylesheet">
+    <link type="text/css" href="../css/stylenewpost.css" rel="stylesheet">
+    <link type="text/css" href="../css/commonstyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta content=" width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 " name="viewport ">
+    <meta content="ie=edge " http-equiv="X-UA-Compatible ">
+    <link rel="preconnect " href="https://fonts.gstatic.com ">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap " rel="stylesheet ">
+</head>
+
+<body>
+    <header class="header ">
+        <div class="block-menu-header ">
+            <div><a href="/main">Главная</a></div>
+            <div><a href="/profile">Профиль</a></div>
+            <div><a class="click ">Создать пост</a></div>
+            <div><a href="/login">Выход</a></div>
+        </div>
+    </header>
+
+
+    <main>
+        <form class="block-new-post styleshadow">
+            <div class="header-new-post">
+                <div class="profile">
+                    <img class="ava-for-post" src="../img/Cat.jpg " alt="ava ">
+                    <label>Name</label>
+                </div>
+                <div class="date ">
+                    <label>15 февраля 2022</label>
+                </div>
+            </div>
+            <div class="block-new-post-content">
+
+                <div class="title-new-post"><textarea placeholder="Название"></textarea>
+                </div>
+                <div class="add-image"><button>Добавить картинку</button></div>
+                <div id="myTextarea" class="text-new-post"><textarea placeholder="Ваш текст"></textarea>
+                </div>
+
+            </div>
+            <div class="button-add-post">
+                <button>Опубликовать</button>
+            </div>
+        </form>
+    </main>
+
+
+
+    <footer class=" footer ">
+        <div class="block-menu-footer ">
+            <div><a href="/main ">Главная</a></div>
+            <div><a href="/profile ">Профиль</a></div>
+            <div><a href="/newpost ">Создать пост</a></div>
+        </div>
+        <div class="block-signature-footer ">
+            <div>
+                <a href="https://vk.com/mosolova2003 ">Разработано Мосоловой В.Г.</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>"../js/newpost.js"</script>
+</body>
+
+</html>
