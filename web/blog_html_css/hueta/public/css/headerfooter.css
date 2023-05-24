@@ -14,18 +14,22 @@ body {
 }
 
 main {
+    margin-top: 60px;
     flex-grow: 1;
     width: 100%;
     flex-direction: column;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .header {
+    z-index: 1000;
     flex-shrink: 0;
     height: 60px;
     width: 100%;
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
     background: #290F4A;

@@ -17,7 +17,8 @@
 .button-change>button:hover,
 .add-image>button:hover,
 .button-add-post>button:hover,
-.button-login>button:hover {
+.button-login>button:hover, 
+.delete-user:hover {
     text-decoration: underline !important;
     font-weight: bold;
 }

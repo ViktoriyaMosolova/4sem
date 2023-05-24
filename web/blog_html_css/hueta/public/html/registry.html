@@ -27,11 +27,11 @@
     <form id=login-form class="block-login styleshadow">
         <div class="block-login-content stylelabel">
             <div><label>Имя</label></div>
-            <div><input id="nameuser"></input></div>
+            <div><input id="nameuser" required></input></div>
             <div><label>Логин</label></div>
-            <div><input id="loginuser"></input></div>
+            <div><input id="loginuser" required></input></div>
             <div><label>Пароль</label></div>
-            <div><input id="passworduser"></input></div>
+            <div><input id="passworduser" required></input></div>
             <div class="button-login">
                 <button type="submit" value="Submit">Зарегистрироваться</button>
             </div>
@@ -50,7 +50,7 @@
     </div>
 </footer>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>"../js/registry.js"</script>
+<script src="../js/registry.js"></script>
 </body>
 
 </html>

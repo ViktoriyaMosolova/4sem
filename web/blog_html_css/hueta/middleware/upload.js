@@ -8,11 +8,12 @@ const storage = multer.diskStorage({
     filename(req, file, cb){
         const date = moment().format('DDMMYYYY-HHmmss_SSS')
         cb(null, `${date}-${file.originalname}`)
+        console.log(`${date}-${file.originalname}`)
     }
 })
 
 const fileFilter = (req, file, cb) => {
-    if(file.mimetype === 'image/png' || file.mimetype === 'image/jpeg'){
+    if(file.mimetype === 'image/png' || file.mimetype === 'image/jpeg' || file.mimetype === 'image/jpg' || file.mimetype === 'image/gif' ){
         cb(null, true)
     } else{
         cb(null, false)

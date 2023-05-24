@@ -4,13 +4,14 @@ const ExtractJwt = require('passport-jwt').ExtractJwt;
 
 const options={
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-    secretOrKey: 'dev-jwt'
+    secretOrKey: 'cat'
 }
 
 module.exports = passport =>{
     passport.use(
         new JwtStrategy(options, async (payload, done) => {
             try {
+                console.log('pass '+ payload.id);
                 const candidate = await db.query('SELECT * FROM person1 WHERE id = $1', [payload.id]);
                 if (candidate.rows.length > 0) {
                     done(null, { login: candidate.rows[0].login, id: candidate.rows[0].id });

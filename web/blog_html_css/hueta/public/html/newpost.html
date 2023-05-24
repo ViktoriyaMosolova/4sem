@@ -27,21 +27,22 @@
 
 
     <main>
-        <form class="block-new-post styleshadow">
+        <div id="newpost-container"></div>
+        <!-- <form id="form-newpost-create" class="block-new-post styleshadow">
             <div class="header-new-post">
                 <div class="profile">
                     <img class="ava-for-post" src="../img/Cat.jpg " alt="ava ">
-                    <label>Name</label>
+                    <label id="username-newpost">Name</label>
                 </div>
                 <div class="date ">
-                    <label>15 февраля 2022</label>
+                    <button id="add-image-newpost">Добавить картинку</button>
                 </div>
             </div>
             <div class="block-new-post-content">
 
                 <div class="title-new-post"><textarea placeholder="Название"></textarea>
                 </div>
-                <div class="add-image"><button>Добавить картинку</button></div>
+                <div class="add-image"><image src="" alt="" id="image-post"><label id="label-image-post">Ваша картинка</label></image></div>
                 <div id="myTextarea" class="text-new-post"><textarea placeholder="Ваш текст"></textarea>
                 </div>
 
@@ -49,7 +50,7 @@
             <div class="button-add-post">
                 <button>Опубликовать</button>
             </div>
-        </form>
+        </form> -->
     </main>
 
 
@@ -67,7 +68,8 @@
         </div>
     </footer>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script>"../js/newpost.js"</script>
+    <script src="../js/newpost.js"></script>
+    <script src="../js/logout.js"></script>
 </body>
 
 </html>

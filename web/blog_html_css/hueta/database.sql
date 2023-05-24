@@ -20,12 +20,12 @@ create TABLE person1(
     photo BYTEA
 );
 
-create TABLE post1(
+CREATE TABLE post1 (
     id SERIAL PRIMARY KEY,
-    title VARCHAR(255),
+    title TEXT,
     image BYTEA,
-    content VARCHAR(255),
+    content TEXT,
     user_id INTEGER,
-    date TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES person
+    date VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES person1(id)
 );

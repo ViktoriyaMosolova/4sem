@@ -4,8 +4,9 @@
     justify-content: center;
     margin: 20px;
     padding: 5px 20px 20px 20px;
-    height: auto;
+    /* height: max-content; */
     min-width: 640px;
+    flex-direction: column;
 }
 
 .header-post {
@@ -24,7 +25,7 @@
     color: #290F4A;
     text-align: center;
     font-family: 'Open Sans';
-    font-size: 14px;
+    font-size: 18px;
     margin: 15px;
 }
 
@@ -55,5 +56,51 @@
     text-align: left;
     font-family: 'Open Sans';
     font-weight: normal;
-    font-size: 12px;
+    font-size: 18px;
+}
+
+#edit {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.post:hover .edit-post,
+.post:hover .delete-post {
+    display: flex;
+}
+
+.edit-post,
+.delete-post {
+    display: none;
+}
+
+.edit-post,
+.delete-post {
+    justify-content: center;
+    align-items: center;
+    background-color: #290F4A;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.edit-post:hover,
+.delete-post:hover {
+    background-color: #3E1A7D;
+    transform: translateY(-3px);
+}
+
+input[type="file"] {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
 }
