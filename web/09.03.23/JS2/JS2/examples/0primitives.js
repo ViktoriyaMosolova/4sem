@@ -1,6 +1,6 @@
 // приведение типов
 
-let num1 = '123 '
+let num1 = '123'
 let num2 = 123
 
 // console.log(parseInt(num1))
@@ -9,35 +9,28 @@ let num2 = 123
 
 
 
-
-
-
-
-
-
 // string
 
 const string = 'Hello world! '
 
-// console.log(string.toUpperCase())
-// console.log(string.toLowerCase())
-// console.log(string[0])
-// console.log(string.includes('Hello'))
-// console.log(string.replace('o', '))'))
-// console.log(string.replaceAll('o', '))'))
-// console.log('    Hello    Wrld    '.trim())
-// console.log(string.split('o'))
-// console.log(string.slice(0,3))
+// console.log(string.toUpperCase()) // Приводим строку к верхнему регистру и выводим результат в консоль.
+// console.log(string.toLowerCase()) // Приводим строку к нижнему регистру и выводим результат в консоль.
+// console.log(string[0]) // Получаем первый символ строки и выводим его в консоль.
+// console.log(string.includes('Hello')) // Проверяем, содержит ли строка подстроку 'Hello' и выводим результат в консоль.
+// console.log(string.replace('o', '))')) // Заменяем первое вхождение символа 'o' на последовательность '))'и выводим результат в консоль.
+// console.log(string.replaceAll('o', '))')) // Заменяем все вхождения символа 'o' на последовательность '))' и выводим результат в консоль.
+// console.log('    Hello    Wrld    '.trim()) // Удаляем пробелы с начала и конца строки и выводим результат в консоль.
+// console.log(string.split('o')) // Разбиваем строку на массив строк, используя символ 'o' в качестве разделителя, и выводим результат в консоль.
+// console.log(string.slice(0,2)) // Выводим подстроку, начиная с первого символа и заканчивая третьим символом.
 // Применение нескольких операторов
 // console.log(string.toLowerCase().trim().replace('!', ''))
 
 
+// Number
 
-
-
-
-
-// number
-
+// Объявляем переменную number со значением 123.456.
 // const number = 123.456
+
+// Округляем число до одной десятичной цифры после запятой и выводим результат в консоль.
 // console.log(number.toFixed(1))
+

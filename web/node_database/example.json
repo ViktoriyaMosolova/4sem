@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "username": "Arion3",
+      "main": "a@mail.ru",
+      "password": "1234"
+    },
+    {
+      "username": "Arion2",
+      "main": "a@mail.ru",
+      "password": "1234"
+    }
+  ]
+}
